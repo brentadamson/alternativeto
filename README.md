@@ -37,7 +37,7 @@ Website | Open Source
 ### Google Chrome
 Website | Open Source
 |---|---|
-| [Firefox](https://www.mozilla.org/en-US/firefox/new/?redirect_source=firefox-com) | No |
+| [Firefox](https://www.mozilla.org/en-US/firefox/new/?redirect_source=firefox-com) | Yes |
 | [Safari](https://www.apple.com/safari/) | No |
 
 **[⬆ Back to Index](#index)**
