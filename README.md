@@ -2,7 +2,7 @@
 A comprehensive list of alternatives to your favorite service.
 
 ## Index
-* [Slack](#animals)
+* [Slack](#slack)
 
 ### Slack
 Website | Open Source
