@@ -3,6 +3,7 @@ A comprehensive list of alternatives to your favorite services.
 
 ## Index
 * [Excel](#excel)
+* [Google Calendar](#calendar)
 * [Google Chrome](#chrome)
 * [Github](#github)
 * [Netflix](#netflix)
@@ -14,6 +15,13 @@ Website | Open Source
 |---|---|
 | [Google Sheets](https://sheets.google.com/) | No |
 | [Airtable](https://airtable.com/) | No |
+
+**[⬆ Back to Index](#index)**
+
+### Calendar
+Website | Open Source
+|---|---|
+| [Thunderbird](https://www.thunderbird.net/en-US/) | Yes |
 
 **[⬆ Back to Index](#index)**
 
