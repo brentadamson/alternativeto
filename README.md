@@ -9,3 +9,5 @@ Website | Open Source
 |---|---|
 | [Mattermost](https://mattermost.com/) | Yes |
 | [Microsoft Teams](https://alexwohlbruck.github.io/cat-facts/) | No |
+
+**[⬆ Back to Index](#index)**
