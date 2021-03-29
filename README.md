@@ -3,6 +3,7 @@ A comprehensive list of alternatives to your favorite services.
 
 ## Index
 * [Excel](#excel)
+* [Github](#github)
 * [Slack](#slack)
 
 ### Excel
@@ -10,6 +11,13 @@ Website | Open Source
 |---|---|
 | [Google Sheets](https://sheets.google.com/) | No |
 | [Airtable](https://airtable.com/) | No |
+
+**[⬆ Back to Index](#index)**
+
+### Github
+Website | Open Source
+|---|---|
+| [GitLab](https://gitlab.com/) | Yes |
 
 **[⬆ Back to Index](#index)**
 
