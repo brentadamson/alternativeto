@@ -1,5 +1,5 @@
 # alternativeto
-A comprehensive list of alternatives to your favorite services.
+A comprehensive list of alternatives to your favorite software.
 
 ## Index
 * [Excel](#excel)
