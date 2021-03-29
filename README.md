@@ -5,6 +5,7 @@ A comprehensive list of alternatives to your favorite services.
 * [Excel](#excel)
 * [Google Chrome](#chrome)
 * [Github](#github)
+* [Paypal](#paypal)
 * [Slack](#slack)
 
 ### Excel
