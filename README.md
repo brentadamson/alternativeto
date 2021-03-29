@@ -3,6 +3,7 @@ A comprehensive list of alternatives to your favorite services.
 
 ## Index
 * [Excel](#excel)
+* [Google](#google)
 * [Google Calendar](#calendar)
 * [Google Chrome](#chrome)
 * [Github](#github)
@@ -18,7 +19,15 @@ Website | Open Source
 
 **[⬆ Back to Index](#index)**
 
-### Calendar
+### Google
+Website | Open Source
+|---|---|
+| [Bing](https://www.bing.com/) | No |
+| [DuckDuckGo](https://duckduckgo.com/) | No |
+
+**[⬆ Back to Index](#index)**
+
+### Google Calendar
 Website | Open Source
 |---|---|
 | [Thunderbird](https://www.thunderbird.net/en-US/) | Yes |
