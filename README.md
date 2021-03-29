@@ -5,6 +5,7 @@ A comprehensive list of alternatives to your favorite services.
 * [Excel](#excel)
 * [Google Chrome](#chrome)
 * [Github](#github)
+* [Netflix](#netflix)
 * [Paypal](#paypal)
 * [Slack](#slack)
 
@@ -28,6 +29,15 @@ Website | Open Source
 Website | Open Source
 |---|---|
 | [GitLab](https://gitlab.com/) | Yes |
+
+**[⬆ Back to Index](#index)**
+
+### Netflix
+Website | Open Source
+|---|---|
+| [Amazon Prime Video](https://www.amazon.com/Amazon-Video) | No |
+| [HBO Max](https://www.hbomax.com/) | No |
+| [Hulu](https://www.hulu.com/) | No |
 
 **[⬆ Back to Index](#index)**
 
