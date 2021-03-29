@@ -2,18 +2,10 @@
 A comprehensive list of alternatives to your favorite services.
 
 ## Index
-* [Google Chrome](#chrome)
 * [Excel](#excel)
+* [Google Chrome](#chrome)
 * [Github](#github)
 * [Slack](#slack)
-
-### Google Chrome
-Website | Open Source
-|---|---|
-| [Firefox](https://www.mozilla.org/en-US/firefox/new/?redirect_source=firefox-com) | No |
-| [Safari](https://www.apple.com/safari/) | No |
-
-**[⬆ Back to Index](#index)**
 
 ### Excel
 Website | Open Source
@@ -23,10 +15,25 @@ Website | Open Source
 
 **[⬆ Back to Index](#index)**
 
+### Google Chrome
+Website | Open Source
+|---|---|
+| [Firefox](https://www.mozilla.org/en-US/firefox/new/?redirect_source=firefox-com) | No |
+| [Safari](https://www.apple.com/safari/) | No |
+
+**[⬆ Back to Index](#index)**
+
 ### Github
 Website | Open Source
 |---|---|
 | [GitLab](https://gitlab.com/) | Yes |
+
+**[⬆ Back to Index](#index)**
+
+### Paypal
+Website | Open Source
+|---|---|
+| [Stripe](https://stripe.com/) | No |
 
 **[⬆ Back to Index](#index)**
 
