@@ -16,6 +16,8 @@ Website | Open Source
 |---|---|
 | [Google Sheets](https://sheets.google.com/) | No |
 | [Airtable](https://airtable.com/) | No |
+| [LibreOffice Calc](https://www.libreoffice.org/) | Yes |
+| [ONLYOFFICE](https://www.onlyoffice.com/) | Yes |
 
 **[⬆ Back to Index](#index)**
 
@@ -24,6 +26,9 @@ Website | Open Source
 |---|---|
 | [Bing](https://www.bing.com/) | No |
 | [DuckDuckGo](https://duckduckgo.com/) | No |
+| [Searx](https://searx.space/) | Yes |
+| [Ecosia](https://www.ecosia.org/) | No |
+| [Yahoo](https://www.yahoo.com/) | No |
 
 **[⬆ Back to Index](#index)**
 
@@ -39,6 +44,10 @@ Website | Open Source
 |---|---|
 | [Firefox](https://www.mozilla.org/en-US/firefox/new/?redirect_source=firefox-com) | Yes |
 | [Safari](https://www.apple.com/safari/) | No |
+| [LibreWolf](https://librewolf-community.gitlab.io/) | Yes |
+| [GNOME Web](https://wiki.gnome.org/Apps/Web) | Yes |
+| [Pale Moon](https://www.palemoon.org/) | No |
+| [Chromium](https://www.chromium.org/Home) | Yes |
 
 **[⬆ Back to Index](#index)**
 
