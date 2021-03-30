@@ -61,6 +61,7 @@ Website | Open Source
 ### Netflix
 Website | Open Source
 |---|---|
+| [MUBI](https://mubi.com/) | No |
 | [Amazon Prime Video](https://www.amazon.com/Amazon-Video) | No |
 | [HBO Max](https://www.hbomax.com/) | No |
 | [Hulu](https://www.hulu.com/) | No |
