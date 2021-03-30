@@ -77,6 +77,7 @@ Website | Open Source
 ### Slack
 Website | Open Source
 |---|---|
+| [Rocket.Chat](https://rocket.chat/) | Yes |
 | [Mattermost](https://mattermost.com/) | Yes |
 | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | No |
 
