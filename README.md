@@ -6,6 +6,8 @@ A comprehensive list of alternatives to your favorite software.
 ## Index
 * [Calendars](#calendars)
 * [Git Hosting Services](#git-hosting-services)
+* [Google Sheets Add-ons](#google-sheets-add-ons)
+  * [Import and Export Data](#import-and-export-data)
 * [Messaging Services](#messaging-services)
 * [Payment Processors](#payment-processors)
 * [Search Engines](#search-engines)
@@ -27,6 +29,21 @@ Website | Open Source
 |---|---|
 | [GitLab](https://gitlab.com/) | Yes |
 | [Github](https://github.com/) | No |
+
+**[⬆ Back to Index](#index)**
+
+
+### Google Sheets Add-ons
+#### Import and Export Data
+Website | Open Source
+|---|---|
+| [API Connector](https://mixedanalytics.com/api-connector/) | No |
+| [Apipheny](https://apipheny.io/) | No |
+| [Data Connector](https://dataconnector.app/) | Yes |
+| [Flex.io](https://www.flex.io/) | No |
+| [ImportJSON / ImportFromWeb](https://nodatanobusiness.com/) | No |
+| [KPIBees](https://kpibees.com/) | No |
+| [Supermetrics](https://supermetrics.com/) | No |
 
 **[⬆ Back to Index](#index)**
 

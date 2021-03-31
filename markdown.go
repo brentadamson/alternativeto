@@ -18,35 +18,60 @@ func GenerateMainREADME() (err error) {
 	}
 
 	// create the index
-	sortedKeys := make([]string, len(allCompanies))
-	i := 0
-	for k := range allCompanies {
-		sortedKeys[i] = k
-		i++
+	categories := []string{}
+	for k, _ := range allCompanies {
+		categories = append(categories, k)
 	}
-	sort.Strings(sortedKeys)
-	for _, key := range sortedKeys {
-		lines = append(lines, fmt.Sprintf("* [%s](#%s)", key, strings.ToLower(strings.ReplaceAll(key, " ", "-"))))
+	sort.Strings(categories)
+	for _, category := range categories {
+		lines = append(lines, fmt.Sprintf("* [%s](#%s)", category, strings.ToLower(strings.ReplaceAll(category, " ", "-"))))
+		// any subcategories?
+		subCategories := []string{}
+		for k, _ := range allCompanies[category] {
+			subCategories = append(subCategories, k)
+		}
+		sort.Strings(subCategories)
+		for _, subCategory := range subCategories {
+			if subCategory == noSubCategory {
+				continue
+			}
+			lines = append(lines, fmt.Sprintf("  * [%s](#%s)", subCategory, strings.ToLower(strings.ReplaceAll(subCategory, " ", "-"))))
+		}
 	}
 
 	// add the companies
-	for _, key := range sortedKeys {
-		lines = append(lines, "")
-		lines = append(lines, fmt.Sprintf("### %s", key))
-		lines = append(lines, "Website | Open Source")
-		lines = append(lines, "|---|---|")
+	for _, category := range categories {
+		// TODO: consolidate this sorting subCategories code since it's the exact same as above
+		subCategories := []string{}
+		for k, _ := range allCompanies[category] {
+			subCategories = append(subCategories, k)
+		}
+		sort.Strings(subCategories)
 
-		companies := allCompanies[key]
-		sort.Slice(companies, func(i, j int) bool {
-			return companies[i].Name < companies[j].Name
-		})
-		for _, company := range companies {
-			var yesNo = "No"
-			if company.OpenSource {
-				yesNo = "Yes"
+		for i, subCategory := range subCategories {
+			lines = append(lines, "")
+			if i == 0 {
+				lines = append(lines, fmt.Sprintf("### %s", category))
+			}
+			if subCategory != noSubCategory {
+				lines = append(lines, fmt.Sprintf("#### %s", subCategory))
 			}
 
-			lines = append(lines, fmt.Sprintf(`| [%s](%s) | %s |`, company.Name, company.Website, yesNo))
+			lines = append(lines, "Website | Open Source")
+			lines = append(lines, "|---|---|")
+
+			companies := allCompanies[category][subCategory]
+			sort.Slice(companies, func(i, j int) bool {
+				return companies[i].Name < companies[j].Name
+			})
+			for _, company := range companies {
+				var yesNo = "No"
+				if company.OpenSource {
+					yesNo = "Yes"
+				}
+
+				lines = append(lines, fmt.Sprintf(`| [%s](%s) | %s |`, company.Name, company.Website, yesNo))
+			}
 		}
 
 		lines = append(lines, "")
