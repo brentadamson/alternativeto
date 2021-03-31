@@ -13,14 +13,15 @@ var (
 
 // Company is an individual company
 type Company struct {
-	Name       string `json:"name"`
-	Website    string `json:"website"`
-	Niche      string `json:"niche"`
-	OpenSource bool   `json:"open_source"`
+	Name        string `json:"name"`
+	Website     string `json:"website"`
+	Category    string `json:"category"`
+	SubCategory string `json:"sub_category"`
+	OpenSource  bool   `json:"open_source"`
 }
 
 // allCompanies holds all of the companies
-// TODO: if this gets unwieldy we can move each niche to their own separate file
+// TODO: if this gets unwieldy we can move each category to their own separate file
 var allCompanies = map[string][]Company{
 	calendars: {
 		{
