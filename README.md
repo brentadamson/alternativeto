@@ -124,7 +124,9 @@ Website | Open Source
 | [GNOME Web](https://wiki.gnome.org/Apps/Web) | Yes |
 | [Google Chrome](https://www.google.com/chrome/) | No |
 | [LibreWolf](https://librewolf-community.gitlab.io/) | Yes |
-| [Pale Moon](https://www.palemoon.org/) | No |
+| [Pale Moon](https://www.palemoon.org/) | Yes |
 | [Safari](https://www.apple.com/safari/) | No |
+| [Qute Browser](https://www.qutebrowser.org/) | Yes |
+| [Vimb](https://fanglingsu.github.io/vimb/) | Yes |
 
 **[⬆ Back to Index](#index)**
