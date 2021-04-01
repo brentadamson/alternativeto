@@ -11,6 +11,7 @@ var (
 	spreadsheets       = "Spreadsheets"
 	streamingServices  = "Streaming Services"
 	webBrowsers        = "Web Browsers"
+	surveySoftware     = "Survey Software"
 
 	// subcategories
 	noSubCategory    = "none"
@@ -29,6 +30,25 @@ type Company struct {
 // allCompanies holds all of the companies
 // TODO: if this gets unwieldy we can move each category to their own separate file
 var allCompanies = map[string]map[string][]Company{
+	surveySoftware: {
+		noSubCategory: {
+			{
+				Name:       "Onva",
+				Website:    "https://www.onva.io/",
+				OpenSource: false,
+			},
+			{
+				Name:       "Survey Monkey",
+				Website:    "https://www.surveymonkey.co.uk/",
+				OpenSource: false,
+			},
+			{
+				Name:       "Typeform",
+				Website:    "https://www.typeform.com/",
+				OpenSource: false,
+			},
+		},
+	},
 	calendars: {
 		noSubCategory: {
 			{
