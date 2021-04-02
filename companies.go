@@ -4,6 +4,7 @@ var (
 	// categories
 	calendars          = "Calendars"
 	gitHostingServices = "Git Hosting Services"
+	iOSApps            = "iOS Apps"
 	googleSheetsAddons = "Google Sheets Add-ons"
 	messagingServices  = "Messaging Services"
 	paymentProcessors  = "Payment Processors"
@@ -15,6 +16,7 @@ var (
 
 	// subcategories
 	noSubCategory    = "none"
+	twoFactorAuth    = "Two-factor authentication"
 	importExportData = "Import and Export Data"
 )
 
@@ -120,6 +122,25 @@ var allCompanies = map[string]map[string][]Company{
 				Website:     "https://supermetrics.com/",
 				OpenSource:  false,
 				SubCategory: importExportData,
+			},
+		},
+	},
+	iOSApps: {
+		twoFactorAuth: {
+			{
+				Name:       "Google Authenticator",
+				Website:    "https://apps.apple.com/us/app/google-authenticator/id388497605",
+				OpenSource: false,
+			},
+			{
+				Name:       "Authy",
+				Website:    "https://authy.com/",
+				OpenSource: false,
+			},
+			{
+				Name:       "1Password",
+				Website:    "https://1password.com/",
+				OpenSource: false,
 			},
 		},
 	},

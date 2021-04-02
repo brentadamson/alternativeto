@@ -15,6 +15,8 @@ A comprehensive list of alternatives to your favorite software.
 * [Streaming Services](#streaming-services)
 * [Survey Software](#survey-software)
 * [Web Browsers](#web-browsers)
+* [iOS Apps](#ios-apps)
+  * [Two-factor authentication](#two-factor-authentication)
 
 ### Calendars
 Website | Open Source
@@ -126,5 +128,16 @@ Website | Open Source
 | [LibreWolf](https://librewolf-community.gitlab.io/) | Yes |
 | [Pale Moon](https://www.palemoon.org/) | No |
 | [Safari](https://www.apple.com/safari/) | No |
+
+**[⬆ Back to Index](#index)**
+
+
+### iOS Apps
+#### Two-factor authentication
+Website | Open Source
+|---|---|
+| [1Password](https://1password.com/) | No |
+| [Authy](https://authy.com/) | No |
+| [Google Authenticator](https://apps.apple.com/us/app/google-authenticator/id388497605) | No |
 
 **[⬆ Back to Index](#index)**
