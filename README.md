@@ -6,138 +6,135 @@ A comprehensive list of alternatives to your favorite software.
 ## Index
 * [Calendars](#calendars)
 * [Git Hosting Services](#git-hosting-services)
-* [Google Sheets Add-ons](#google-sheets-add-ons)
-  * [Import and Export Data](#import-and-export-data)
+* [Import and Export Data](#import-and-export-data)
 * [Messaging Services](#messaging-services)
 * [Payment Processors](#payment-processors)
 * [Search Engines](#search-engines)
 * [Spreadsheets](#spreadsheets)
 * [Streaming Services](#streaming-services)
 * [Survey Software](#survey-software)
+* [Two-factor authentication](#two-factor-authentication)
 * [Web Browsers](#web-browsers)
-* [iOS Apps](#ios-apps)
-  * [Two-factor authentication](#two-factor-authentication)
 
 ### Calendars
-Website | Open Source
-|---|---|
-| [Google Calendar](https://calendar.google.com/) | No |
-| [Thunderbird](https://www.thunderbird.net/) | Yes |
+Website | iOS | Google Sheets Add-on | Linux | Mac | Web | Windows | Open Source
+|---|---|---|---|---|---|---|---|
+| [Google Calendar](https://calendar.google.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | No |
+| [Thunderbird](https://www.thunderbird.net/) | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | Yes |
 
 **[⬆ Back to Index](#index)**
 
 
 ### Git Hosting Services
-Website | Open Source
-|---|---|
-| [GitLab](https://gitlab.com/) | Yes |
-| [Github](https://github.com/) | No |
+Website | iOS | Google Sheets Add-on | Linux | Mac | Web | Windows | Open Source
+|---|---|---|---|---|---|---|---|
+| [GitLab](https://gitlab.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | Yes |
+| [Github](https://github.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | No |
 
 **[⬆ Back to Index](#index)**
 
 
-### Google Sheets Add-ons
-#### Import and Export Data
-Website | Open Source
-|---|---|
-| [API Connector](https://mixedanalytics.com/api-connector/) | No |
-| [Apipheny](https://apipheny.io/) | No |
-| [Data Connector](https://dataconnector.app/) | Yes |
-| [Flex.io](https://www.flex.io/) | No |
-| [ImportJSON / ImportFromWeb](https://nodatanobusiness.com/) | No |
-| [KPIBees](https://kpibees.com/) | No |
-| [Supermetrics](https://supermetrics.com/) | No |
+### Import and Export Data
+Website | iOS | Google Sheets Add-on | Linux | Mac | Web | Windows | Open Source
+|---|---|---|---|---|---|---|---|
+| [API Connector](https://mixedanalytics.com/api-connector/) | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | No |
+| [Apipheny](https://apipheny.io/) | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | No |
+| [Data Connector](https://dataconnector.app/) | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | Yes |
+| [Flex.io](https://www.flex.io/) | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | No |
+| [ImportJSON / ImportFromWeb](https://nodatanobusiness.com/) | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | No |
+| [KPIBees](https://kpibees.com/) | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | No |
+| [Supermetrics](https://supermetrics.com/) | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | No |
 
 **[⬆ Back to Index](#index)**
 
 
 ### Messaging Services
-Website | Open Source
-|---|---|
-| [Mattermost](https://mattermost.com/) | Yes |
-| [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | No |
-| [Rocket.Chat](https://rocket.chat/) | Yes |
-| [Slack](https://slack.com/) | No |
+Website | iOS | Google Sheets Add-on | Linux | Mac | Web | Windows | Open Source
+|---|---|---|---|---|---|---|---|
+| [Mattermost](https://mattermost.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | Yes |
+| [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | No |
+| [Rocket.Chat](https://rocket.chat/) | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | Yes |
+| [Slack](https://slack.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | No |
 
 **[⬆ Back to Index](#index)**
 
 
 ### Payment Processors
-Website | Open Source
-|---|---|
-| [Paypal](https://www.paypal.com/) | No |
-| [Stripe](https://stripe.com/) | No |
+Website | iOS | Google Sheets Add-on | Linux | Mac | Web | Windows | Open Source
+|---|---|---|---|---|---|---|---|
+| [Paypal](https://www.paypal.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | No |
+| [Stripe](https://stripe.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | No |
 
 **[⬆ Back to Index](#index)**
 
 
 ### Search Engines
-Website | Open Source
-|---|---|
-| [Bing](https://www.bing.com/) | No |
-| [DuckDuckGo](https://duckduckgo.com/) | No |
-| [Ecosia](https://www.ecosia.org/) | No |
-| [Google](https://www.google.com/) | No |
-| [Searx](https://searx.space/) | Yes |
-| [Yahoo](https://www.yahoo.com/) | No |
+Website | iOS | Google Sheets Add-on | Linux | Mac | Web | Windows | Open Source
+|---|---|---|---|---|---|---|---|
+| [Bing](https://www.bing.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | No |
+| [DuckDuckGo](https://duckduckgo.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | No |
+| [Ecosia](https://www.ecosia.org/) | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | No |
+| [Google](https://www.google.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | No |
+| [Searx](https://searx.space/) | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | Yes |
+| [Yahoo](https://www.yahoo.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | No |
 
 **[⬆ Back to Index](#index)**
 
 
 ### Spreadsheets
-Website | Open Source
-|---|---|
-| [Airtable](https://airtable.com/) | No |
-| [Excel](https://www.microsoft.com/en-us/microsoft-365/excel) | No |
-| [Google Sheets](https://sheets.google.com/) | No |
-| [LibreOffice Calc](https://www.libreoffice.org/) | Yes |
-| [ONLYOFFICE](https://www.onlyoffice.com/) | Yes |
+Website | iOS | Google Sheets Add-on | Linux | Mac | Web | Windows | Open Source
+|---|---|---|---|---|---|---|---|
+| [Airtable](https://airtable.com/) | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | No |
+| [Excel](https://www.microsoft.com/en-us/microsoft-365/excel) | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | No |
+| [Google Sheets](https://sheets.google.com/) | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | No |
+| [LibreOffice Calc](https://www.libreoffice.org/) | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | Yes |
+| [ONLYOFFICE](https://www.onlyoffice.com/) | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | Yes |
 
 **[⬆ Back to Index](#index)**
 
 
 ### Streaming Services
-Website | Open Source
-|---|---|
-| [Amazon Prime Video](https://www.amazon.com/) | No |
-| [HBO Max](https://www.hbomax.com/) | No |
-| [Hulu](https://www.hulu.com/) | No |
-| [MUBI](https://mubi.com/) | No |
-| [Netflix](https://www.netflix.com/) | No |
+Website | iOS | Google Sheets Add-on | Linux | Mac | Web | Windows | Open Source
+|---|---|---|---|---|---|---|---|
+| [Amazon Prime Video](https://www.amazon.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | No |
+| [HBO Max](https://www.hbomax.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | No |
+| [Hulu](https://www.hulu.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | No |
+| [MUBI](https://mubi.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | No |
+| [Netflix](https://www.netflix.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | No |
 
 **[⬆ Back to Index](#index)**
 
 
 ### Survey Software
-Website | Open Source
-|---|---|
-| [Onva](https://www.onva.io/) | No |
-| [Survey Monkey](https://www.surveymonkey.co.uk/) | No |
-| [Typeform](https://www.typeform.com/) | No |
+Website | iOS | Google Sheets Add-on | Linux | Mac | Web | Windows | Open Source
+|---|---|---|---|---|---|---|---|
+| [Onva](https://www.onva.io/) | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | No |
+| [Survey Monkey](https://www.surveymonkey.co.uk/) | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | No |
+| [Typeform](https://www.typeform.com/) | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | No |
+
+**[⬆ Back to Index](#index)**
+
+
+### Two-factor authentication
+Website | iOS | Google Sheets Add-on | Linux | Mac | Web | Windows | Open Source
+|---|---|---|---|---|---|---|---|
+| [1Password](https://1password.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | No |
+| [Authy](https://authy.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | No |
+| [Google Authenticator](https://apps.apple.com/us/app/google-authenticator/id388497605) | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | No |
 
 **[⬆ Back to Index](#index)**
 
 
 ### Web Browsers
-Website | Open Source
-|---|---|
-| [Chromium](https://www.chromium.org/Home) | Yes |
-| [Firefox](https://www.mozilla.org/en-US/firefox/) | Yes |
-| [GNOME Web](https://wiki.gnome.org/Apps/Web) | Yes |
-| [Google Chrome](https://www.google.com/chrome/) | No |
-| [LibreWolf](https://librewolf-community.gitlab.io/) | Yes |
-| [Pale Moon](https://www.palemoon.org/) | No |
-| [Safari](https://www.apple.com/safari/) | No |
+Website | iOS | Google Sheets Add-on | Linux | Mac | Web | Windows | Open Source
+|---|---|---|---|---|---|---|---|
+| [Chromium](https://www.chromium.org/Home) | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | Yes |
+| [Firefox](https://www.mozilla.org/en-US/firefox/) | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | Yes |
+| [GNOME Web](https://wiki.gnome.org/Apps/Web) | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | Yes |
+| [Google Chrome](https://www.google.com/chrome/) | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | No |
+| [LibreWolf](https://librewolf-community.gitlab.io/) | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | Yes |
+| [Pale Moon](https://www.palemoon.org/) | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | No |
+| [Safari](https://www.apple.com/safari/) | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | No |
 
 **[⬆ Back to Index](#index)**
 
-
-### iOS Apps
-#### Two-factor authentication
-Website | Open Source
-|---|---|
-| [1Password](https://1password.com/) | No |
-| [Authy](https://authy.com/) | No |
-| [Google Authenticator](https://apps.apple.com/us/app/google-authenticator/id388497605) | No |
-
-**[⬆ Back to Index](#index)**

@@ -18,60 +18,60 @@ func GenerateMainREADME() (err error) {
 	}
 
 	// create the index
-	categories := []string{}
-	for k, _ := range allCompanies {
-		categories = append(categories, k)
+	sortedCategories := []string{}
+	for _, company := range allCompanies {
+		if contains(sortedCategories, company.Category) {
+			continue
+		}
+		sortedCategories = append(sortedCategories, company.Category)
 	}
-	sort.Strings(categories)
-	for _, category := range categories {
+	sort.Strings(sortedCategories)
+	for _, category := range sortedCategories {
 		lines = append(lines, fmt.Sprintf("* [%s](#%s)", category, strings.ToLower(strings.ReplaceAll(category, " ", "-"))))
-		// any subcategories?
-		subCategories := []string{}
-		for k, _ := range allCompanies[category] {
-			subCategories = append(subCategories, k)
-		}
-		sort.Strings(subCategories)
-		for _, subCategory := range subCategories {
-			if subCategory == noSubCategory {
-				continue
-			}
-			lines = append(lines, fmt.Sprintf("  * [%s](#%s)", subCategory, strings.ToLower(strings.ReplaceAll(subCategory, " ", "-"))))
-		}
 	}
+
+	platformIOS = "iOS"
+	platformGoogleSheetsAddOn = "Google Sheets Add-on"
+	platformLinux = "Linux"
+	platformMac = "Mac"
+	platformWeb = "web"
+	platformWindows = "Windows"
 
 	// add the companies
-	for _, category := range categories {
-		// TODO: consolidate this sorting subCategories code since it's the exact same as above
-		subCategories := []string{}
-		for k, _ := range allCompanies[category] {
-			subCategories = append(subCategories, k)
+	for _, category := range sortedCategories {
+		lines = append(lines, "")
+		lines = append(lines, fmt.Sprintf("### %s", category))
+		lines = append(lines, fmt.Sprintf("Website | %s | Open Source", strings.Join(allPlatforms, " | ")))
+		lines = append(lines, "|---|---|---|---|---|---|---|---|")
+
+		var companies []Company
+		for _, company := range allCompanies {
+			if company.Category != category {
+				continue
+			}
+			companies = append(companies, company)
 		}
-		sort.Strings(subCategories)
 
-		for i, subCategory := range subCategories {
-			lines = append(lines, "")
-			if i == 0 {
-				lines = append(lines, fmt.Sprintf("### %s", category))
+		sort.Slice(companies, func(i, j int) bool {
+			return companies[i].Name < companies[j].Name
+		})
+
+		for _, company := range companies {
+			var yesNo = "No"
+			if company.OpenSource {
+				yesNo = "Yes"
 			}
-			if subCategory != noSubCategory {
-				lines = append(lines, fmt.Sprintf("#### %s", subCategory))
-			}
 
-			lines = append(lines, "Website | Open Source")
-			lines = append(lines, "|---|---|")
-
-			companies := allCompanies[category][subCategory]
-			sort.Slice(companies, func(i, j int) bool {
-				return companies[i].Name < companies[j].Name
-			})
-			for _, company := range companies {
-				var yesNo = "No"
-				if company.OpenSource {
-					yesNo = "Yes"
+			var marks []string
+			for _, platform := range allPlatforms {
+				var mark = ":negative_squared_cross_mark:"
+				if contains(company.Platforms, platform) {
+					mark = ":heavy_check_mark:"
 				}
-
-				lines = append(lines, fmt.Sprintf(`| [%s](%s) | %s |`, company.Name, company.Website, yesNo))
+				marks = append(marks, mark)
 			}
+
+			lines = append(lines, fmt.Sprintf(`| [%s](%s) | %s | %s |`, company.Name, company.Website, strings.Join(marks, " | "), yesNo))
 		}
 
 		lines = append(lines, "")
@@ -79,6 +79,16 @@ func GenerateMainREADME() (err error) {
 		lines = append(lines, "")
 	}
 
-	var contents = []byte(strings.Join(lines, "\n"))
+	var contents = []byte(strings.Join(lines, "\n") + "\n")
 	return os.WriteFile("README.md", contents, 0644)
+}
+
+func contains(s []string, str string) bool {
+	for _, v := range s {
+		if v == str {
+			return true
+		}
+	}
+
+	return false
 }
