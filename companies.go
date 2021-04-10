@@ -3,6 +3,7 @@ package alternativeto
 var (
 	// categories
 	calendars          = "Calendars"
+	flashPlayers       = "Flash Players"
 	gitHostingServices = "Git Hosting Services"
 	importExportData   = "Import and Export Data"
 	messagingServices  = "Messaging Services"
@@ -61,6 +62,34 @@ var allCompanies = []Company{
 		OpenSource: true,
 		Platforms: []string{
 			platformIOS, platformLinux, platformMac, platformWeb, platformWindows,
+		},
+	},
+	// flash players
+	{
+		Name:       "Adobe Flash Player",
+		Website:    "https://www.adobe.com/products/flashplayer/end-of-life.html",
+		Category:   flashPlayers,
+		OpenSource: false,
+		Platforms: []string{
+			platformLinux, platformMac, platformWeb, platformWindows,
+		},
+	},
+	{
+		Name:       "Lightspark",
+		Website:    "https://lightspark.github.io/",
+		Category:   flashPlayers,
+		OpenSource: true,
+		Platforms: []string{
+			platformLinux, platformWeb, platformWindows,
+		},
+	},
+	{
+		Name:       "Gnash",
+		Website:    "https://www.gnu.org/software/gnash/",
+		Category:   flashPlayers,
+		OpenSource: true,
+		Platforms: []string{
+			platformLinux, platformWeb, platformWindows,
 		},
 	},
 	// gitHostingServices

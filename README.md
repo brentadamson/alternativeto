@@ -5,6 +5,7 @@ A comprehensive list of alternatives to your favorite software.
 
 ## Index
 * [Calendars](#calendars)
+* [Flash Players](#flash-players)
 * [Git Hosting Services](#git-hosting-services)
 * [Import and Export Data](#import-and-export-data)
 * [Messaging Services](#messaging-services)
@@ -21,6 +22,16 @@ Website | iOS | Google Sheets Add-on | Linux | Mac | Web | Windows | Open Source
 |---|---|---|---|---|---|---|---|
 | [Google Calendar](https://calendar.google.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | No |
 | [Thunderbird](https://www.thunderbird.net/) | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | Yes |
+
+**[⬆ Back to Index](#index)**
+
+
+### Flash Players
+Website | iOS | Google Sheets Add-on | Linux | Mac | Web | Windows | Open Source
+|---|---|---|---|---|---|---|---|
+| [Adobe Flash Player](https://www.adobe.com/products/flashplayer/end-of-life.html) | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | No |
+| [Gnash](https://www.gnu.org/software/gnash/) | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | Yes |
+| [Lightspark](https://lightspark.github.io/) | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | Yes |
 
 **[⬆ Back to Index](#index)**
 
