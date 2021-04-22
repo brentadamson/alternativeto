@@ -181,7 +181,7 @@ var allCompanies = []Company{
 		Name:       "Gmail Mail Merge",
 		Website:    "https://digitalinspiration.com/product/gmail-mail-merge",
 		Category:   mailMerge,
-		OpenSource: true,
+		OpenSource: false,
 		Platforms: []string{
 			platformGoogleSheetsAddOn,
 		},
@@ -208,7 +208,7 @@ var allCompanies = []Company{
 		Name:       "Yet Another Mail Merge",
 		Website:    "https://yamm.com/",
 		Category:   mailMerge,
-		OpenSource: true,
+		OpenSource: false,
 		Platforms: []string{
 			platformGoogleSheetsAddOn,
 		},

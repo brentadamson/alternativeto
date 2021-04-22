@@ -63,10 +63,10 @@ Website | iOS | Google Sheets Add-on | Linux | Mac | Web | Windows | Open Source
 ### Mail Merge
 Website | iOS | Google Sheets Add-on | Linux | Mac | Web | Windows | Open Source
 |---|---|---|---|---|---|---|---|
-| [Gmail Mail Merge](https://digitalinspiration.com/product/gmail-mail-merge) | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | Yes |
+| [Gmail Mail Merge](https://digitalinspiration.com/product/gmail-mail-merge) | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | No |
 | [Mailman](https://hellomailman.com/) | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | Yes |
 | [Mailmeteor](https://mailmeteor.com/) | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | No |
-| [Yet Another Mail Merge](https://yamm.com/) | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | Yes |
+| [Yet Another Mail Merge](https://yamm.com/) | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | No |
 
 **[⬆ Back to Index](#index)**
 
