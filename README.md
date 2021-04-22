@@ -8,6 +8,7 @@ A comprehensive list of alternatives to your favorite software.
 * [Flash Players](#flash-players)
 * [Git Hosting Services](#git-hosting-services)
 * [Import and Export Data](#import-and-export-data)
+* [Mail Merge](#mail-merge)
 * [Messaging Services](#messaging-services)
 * [Payment Processors](#payment-processors)
 * [Search Engines](#search-engines)
@@ -55,6 +56,17 @@ Website | iOS | Google Sheets Add-on | Linux | Mac | Web | Windows | Open Source
 | [ImportJSON / ImportFromWeb](https://nodatanobusiness.com/) | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | No |
 | [KPIBees](https://kpibees.com/) | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | No |
 | [Supermetrics](https://supermetrics.com/) | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | No |
+
+**[⬆ Back to Index](#index)**
+
+
+### Mail Merge
+Website | iOS | Google Sheets Add-on | Linux | Mac | Web | Windows | Open Source
+|---|---|---|---|---|---|---|---|
+| [Gmail Mail Merge](https://digitalinspiration.com/product/gmail-mail-merge) | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | Yes |
+| [Mailman](https://hellomailman.com/) | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | Yes |
+| [Mailmeteor](https://mailmeteor.com/) | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | No |
+| [Yet Another Mail Merge](https://yamm.com/) | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | Yes |
 
 **[⬆ Back to Index](#index)**
 

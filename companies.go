@@ -6,6 +6,7 @@ var (
 	flashPlayers       = "Flash Players"
 	gitHostingServices = "Git Hosting Services"
 	importExportData   = "Import and Export Data"
+	mailMerge          = "Mail Merge"
 	messagingServices  = "Messaging Services"
 	paymentProcessors  = "Payment Processors"
 	searchEngines      = "Search Engines"
@@ -171,6 +172,43 @@ var allCompanies = []Company{
 		Website:    "https://supermetrics.com/",
 		Category:   importExportData,
 		OpenSource: false,
+		Platforms: []string{
+			platformGoogleSheetsAddOn,
+		},
+	},
+	// mailMerge
+	{
+		Name:       "Gmail Mail Merge",
+		Website:    "https://digitalinspiration.com/product/gmail-mail-merge",
+		Category:   mailMerge,
+		OpenSource: true,
+		Platforms: []string{
+			platformGoogleSheetsAddOn,
+		},
+	},
+	{
+		Name:       "Mailman",
+		Website:    "https://hellomailman.com/",
+		Category:   mailMerge,
+		OpenSource: true,
+		Platforms: []string{
+			platformGoogleSheetsAddOn,
+		},
+	},
+	{
+		Name:       "Mailmeteor",
+		Website:    "https://mailmeteor.com/",
+		Category:   mailMerge,
+		OpenSource: false,
+		Platforms: []string{
+			platformGoogleSheetsAddOn,
+		},
+	},
+	{
+		Name:       "Yet Another Mail Merge",
+		Website:    "https://yamm.com/",
+		Category:   mailMerge,
+		OpenSource: true,
 		Platforms: []string{
 			platformGoogleSheetsAddOn,
 		},
