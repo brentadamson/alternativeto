@@ -528,6 +528,15 @@ var allCompanies = []Company{
 		},
 	},
 	{
+		Name:       "SimpleX Chat",
+		Website:    "https://simplex.chat/",
+		Category:   messagingServices,
+		OpenSource: true,
+		Platforms: []string{
+			platformIOS, platformLinux, platformMac, platformWeb, platformWindows,
+		},
+	},
+	{
 		Name:       "Chromium",
 		Website:    "https://www.chromium.org/Home",
 		Category:   webBrowsers,

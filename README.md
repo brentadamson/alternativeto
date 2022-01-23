@@ -77,6 +77,7 @@ Website | iOS | Google Sheets Add-on | Linux | Mac | Web | Windows | Open Source
 | [Mattermost](https://mattermost.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | Yes |
 | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | No |
 | [Rocket.Chat](https://rocket.chat/) | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | Yes |
+| [SimpleX Chat](https://simplex.chat/) | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | Yes |
 | [Slack](https://slack.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | No |
 
 **[⬆ Back to Index](#index)**
