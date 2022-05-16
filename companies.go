@@ -3,6 +3,7 @@ package alternativeto
 var (
 	// categories
 	calendars          = "Calendars"
+	cloudManagement	   = "Cloud Management" 
 	flashPlayers       = "Flash Players"
 	gitHostingServices = "Git Hosting Services"
 	importExportData   = "Import and Export Data"
@@ -63,6 +64,16 @@ var allCompanies = []Company{
 		OpenSource: true,
 		Platforms: []string{
 			platformIOS, platformLinux, platformMac, platformWeb, platformWindows,
+		},
+	},
+	// cloud management
+	{ 
+		Name:       "Argonaut",
+		Website:    "https://argonaut.dev/?utm_source=rsrc&utm_medium=alternativeto",
+		Category:   cloudManagement,
+		OpenSource: false,
+		Platforms: []string{
+			platformWeb,
 		},
 	},
 	// flash players
