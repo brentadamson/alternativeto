@@ -5,6 +5,7 @@ A comprehensive list of alternatives to your favorite software.
 
 ## Index
 * [Calendars](#calendars)
+* [Cloud Management](#cloud-management)
 * [Flash Players](#flash-players)
 * [Git Hosting Services](#git-hosting-services)
 * [Import and Export Data](#import-and-export-data)
@@ -23,6 +24,14 @@ Website | iOS | Google Sheets Add-on | Linux | Mac | Web | Windows | Open Source
 |---|---|---|---|---|---|---|---|
 | [Google Calendar](https://calendar.google.com/) | :heavy_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | No |
 | [Thunderbird](https://www.thunderbird.net/) | :heavy_check_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | Yes |
+
+**[⬆ Back to Index](#index)**
+
+
+### Cloud Management
+Website | iOS | Google Sheets Add-on | Linux | Mac | Web | Windows | Open Source
+|---|---|---|---|---|---|---|---|
+| [Argonaut](https://argonaut.dev/?utm_source=rsrc&utm_medium=alternativeto) | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :heavy_check_mark: | :negative_squared_cross_mark: | No |
 
 **[⬆ Back to Index](#index)**
 
